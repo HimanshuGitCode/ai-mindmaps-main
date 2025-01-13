@@ -105,7 +105,7 @@ export default function Page() {
             <div className="flex items-center justify-center">
               <div className="flex items-center space-x-2">
                 <Rocket className="w-6 h-6 text-blue-700" />
-                <h2 className="text-lg font-bold text-blue-700">Built with Build Fast with AI</h2>
+                <h2 className="text-lg font-bold text-blue-700">Built By Kunal</h2>
               </div>
               <ChevronDown size={20} className="ml-2 text-blue-700" />
             </div>
@@ -118,15 +118,15 @@ export default function Page() {
                   transition={{ duration: 0.3 }}
                   className="mt-2 text-center"
                 >
-                  <p className="mb-2 text-gray-700">Learn to create amazing AI-powered apps like this one!</p>
+                  <p className="mb-2 text-gray-700"></p>
                   <a
-                    href="https://www.buildfastwithai.com/genai-course"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center bg-blue-700 text-white font-bold py-1 px-3 rounded-full hover:bg-blue-600 transition-colors duration-200 text-sm"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    Enroll in GenAI Crash Course
+                  
                     <ExternalLink className="ml-1 w-3 h-3" />
                   </a>
                 </motion.div>
